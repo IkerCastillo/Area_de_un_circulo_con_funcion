@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Calcular área el un círculo</title>
+</head>
+<body>
+	<script type="text/javascript">
+		
+		/* Área de un círculo */
+		function calcularArea(radio) {
+ 		  	
+  			var area = (Math.PI * Math.pow(radio,2)); //Operación para el área
+  			document.write("El área del círculo es: " + area);
+  		}
+  		//Declara la variable radioTotal para que pase de parámetro a la función
+		var radioTotal = prompt("Ingrese la medida del radio");
+		calcularArea(radioTotal);
+
+
+	</script>
+
+</body>
+</html>
